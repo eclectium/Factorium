@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>Factorium search</title>
+<link rel=STYLESHEET TYPE="text/css" HREF="css/fact.css">
+</head>
+<body>
+	<p><img src="img/logo.png" alt="Factorium" width="282" height="90"></a></p>
+	<div class="src1">
+		<form action="cgi-bin/fact.py" id="form">
+			<p align="center"> Искать &nbsp;&nbsp;
+				<input type="search" size="40" name="wanted"> &nbsp;&nbsp;
+				<button type="submit" class="btn" name="search" formtarget="Result">Искать</button>
+				<table width="40%" align="center">
+					<tbody>
+						<tr>
+							<td>
+							<input name="key_k" type = "checkbox" value="1">Ключевые слова
+							</td>
+							<td>
+							<input name="key_b" type = "checkbox" value="2">Книги
+							</td>
+						</tr>
+						<tr>
+							<td>
+							<input name="key_w" type = "checkbox" value="3">Слова целиком
+							</td>
+							<td>
+							<input name="key_a" type = "checkbox" value="4">Только соседние
+							</td>
+						</tr>
+					</tbody>					
+				</table>
+			</p>
+		</form>
+	</div>	
+</body>
+</html>

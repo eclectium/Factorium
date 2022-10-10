@@ -1,0 +1,1 @@
+for %%c in (*.fact) do fact.bat %%c
