@@ -1,4 +1,4 @@
-#!C:\Users\eclec\AppData\Local\Microsoft\WindowsApps\python3.exe
+#/usr/bin/env python3
 
 import os, re, sys, codecs, cgi
 
